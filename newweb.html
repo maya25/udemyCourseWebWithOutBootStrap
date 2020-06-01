@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+    <head>
+    	 <title> my first web</title>
+    	 <link rel="stylesheet" href="newwebstyle.css">
+    </head>
+
+    <body>
+    	<nav>
+    		<ul class="topnav" id="dropdownClick">
+    			<li> <a class="active" href="home#">home </a> </li>
+    			<li> <a href="#">news </a> </li>
+    			<li> <a href="#">conect </a> </li>
+    			<li> <a href="#">about </a> </li>
+    			<li class="topnav-right"> <a href="#">sign in </a> </li>
+    			<li class="topnav-right"> <a href="#">sign up </a> </li>
+    			<li class="dropdownIcon"> <a href="javascript:void(0);" onclick="dropdownMenu()">&#9776; </a> </li>
+    		</ul>
+    	</nav>
+
+
+    	<div class="container" id="section-1-gradient">
+
+    		<div class="row">
+    			<div class="col-6">
+    				<div class="leftSide-col">
+    					<h1 class="large"> maya riklis </h1>
+    					<h1 class="large"> form happy </h1>
+    				</div>
+    				<form>
+    					<div class="leftSide-col">
+    						<h2>User name:</h2>
+    						<input class="inputbox" name="username" type="text" placeholder="Username">
+    						<h2> Password </h2>
+    						<input class="inputbox" name="password" type="text" placeholder="Password">
+    					</div>
+    				</form>
+    			</div>
+
+
+                   <div class="col-6">
+                   	<div class="rightSide-col">
+                   		<div class="videoContainer">
+                   			<iframe width="560" height="315" src="https://www.youtube.com/embed/bZNAFkkUeKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+
+      <header>
+      <h1 class="section2Header"> hello hollo maya </h1>
+       
+      </header>
+
+      <div class="container">
+      	<div class="row">
+      		<div class="col-4">
+      			<div class="box">
+      				<div class="icon">
+      					<img src="devIcon.png">
+      				</div>
+      				<label>chat with me</label>
+      				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+      			</div>
+      		</div>
+
+      		<div class="col-4">
+      			<div class="box">
+      				<div class="icon">
+      					<img src="devIcon.png">
+      				</div>
+      				<label>learn to code</label>
+      				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+      			</div>
+      		</div>
+
+      		<div class="col-4">
+      			<div class="box">
+      				<div class="icon">
+      					<img src="devIcon.png">
+      				</div>
+      				<label>build an empire</label>
+      				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+      			</div>
+      		</div>
+
+
+      	</div>
+
+      	<div class="row">
+      		<div class="col-12">
+      			<button class="maya">learn more</button>
+      </div>
+  </div>
+</div>
+
+
+
+<hr>
+<div class="container">
+	<div class="row">
+	<div class="col-7">
+		<article>
+			<p>
+			 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.	
+			</p>
+		</article>
+	</div>
+	<div class="col-5">
+		 <div class="slopeIcon">
+		  <img src="ioS-Slope.png">
+	    </div>
+	</div>
+
+</div>
+</div>
+
+
+
+<footer class="footsy">
+	<div class="row">
+		<div class="col-3 mobileStack">
+			<h1> company</h1>
+			 <ul>
+			 	<li> about</li>
+			 	<li> blogs</li>
+			 	<li>careers</li>
+			 </ul>
+		</div>
+			<div class="col-3 mobileStack">
+			<h1> company</h1>
+			 <ul>
+			 	<li> about</li>
+			 	<li> blogs</li>
+			 	<li>careers</li>
+			 </ul>
+		</div>
+			<div class="col-3 mobileStack">
+			<h1> company</h1>
+			 <ul>
+			 	<li> about</li>
+			 	<li> blogs</li>
+			 	<li>careers</li>
+			 </ul>
+		</div>
+			<div class="col-3 mobileStacks">
+			<h1> company</h1>
+			 <ul>
+			 	<li> about</li>
+			 	<li> blogs</li>
+			 	<li>careers</li>
+			 </ul>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+    	<script>
+    		function dropdownMenu(){
+    			var x =  document.getElementById("dropdownClick");
+    			if (x.className==="topnav"){
+    				x.className += " responsive";
+    			}
+    			else{
+    				x.className = "topnav";
+
+
+
+    			}
+    			}
+    		
+        </script>
+    </body>
+</html>
